@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  font-family: "poppins";
+  color: black;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all 1.4s;
+  font-weight: 600;
+  font-size: large;
+}
+a:hover {
+  color: #f58d17;
+}
+.shadow-on-hover {
+  transition: all 0.3s;
+}
+.shadow-on-hover:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* btn */
+.btn {
+  border-radius: 0;
+  padding: 14px 38px;
+  box-shadow: 0 10px 0px rgba(0, 0, 0, 0.5);
+}
+.btn .btn-brand {
+  color: #fff;
+  font-weight: 500;
+  border-color: #f58d17;
+  background-color: #f58d17;
+}
+.a .btn-brand:hover {
+  border-color: #ca7310;
+  background-color: #ca7310;
+  color: #fff;
+}
+.bg-cover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+/* Menu */
+#Menu .container .nav-pills .nav-link {
+  background-color: #fff;
+  margin-right: 8px;
+  margin-left: 8px;
+  color: #222;
+  border-radius: 100px;
+  box-shadow: 0 10px 0px rgba(0, 0, 0, 0.5);
+}
+#Menu .nav- {
+  background-color: #fff;
+  margin-right: 8px;
+  margin-left: 8px;
+  color: #222;
+  border-radius: 100px;
+  border: #1f8dd6;
+  font-size: medium;
+  box-shadow: 0 10px 0px rgba(0, 0, 0, 0.5);
+}
+#Menu .container .nav-pills .nav-link.active {
+  background-color: #f58d17;
+  color: #ffffff;
+}
+.Menu-item .star {
+  color: #f58d17;
+}
+
+/* features */
+.features {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.features .features-icon {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  color: #fff;
+  font-size: 28px;
+  display: inline-grid;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.promo {
+  width: 300px;
+  margin: 3px;
+}
+body {
+  margin: 0;
+}
+aside {
+    background: #1f8dd6; /* same color as selected state on site menu */
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+}
+span {
+  color: rgb(0, 0, 0);
+}
+textarea {
+  width: 100%;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(224, 18, 162); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+#name, #email {
+  width: 100%;
+}
+.honeypot-field {
+  display: none;
+}

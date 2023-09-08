@@ -1,0 +1,13 @@
+.btn {
+  border-radius: 0;
+  padding: 14px 38px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
